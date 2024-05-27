@@ -40,6 +40,7 @@ main {
     width: 200px;
     height: 200px;
     margin-right: 20px;
+    object-fit: cover;
 }
 
 .bio h1 {
