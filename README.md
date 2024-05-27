@@ -5,4 +5,3 @@ I'm particularly passionate about strategy, technology and marketing application
 
 Interests: Optimization, Machine Learning, Deep Learning, Large Language Models, Business Analytics, Applications for driving business value.
 
-## [Home](index.html) | [About Me](about.html)| [Projects](projects.html)
