@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav {
+    margin-left: auto;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+main {
+    padding: 20px;
+}
+
+.profile {
+    display: flex;
+    align-items: flex-start;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+}
+
+.bio h1 {
+    color: #A31F34; /* MIT's red color */
+}
+
+.bio p, .bio ul {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.bio ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.bio ul li {
+    margin-bottom: 10px;
+}
+
+.bio h2 {
+    margin-top: 20px;
+    color: #A31F34;
+}
