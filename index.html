@@ -3,6 +3,32 @@
 <head>
     <title>Home Page</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        .collapsible {
+            background-color: #f1f1f1;
+            color: #444;
+            cursor: pointer;
+            padding: 10px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+            margin-top: 10px;
+        }
+
+        .active, .collapsible:hover {
+            background-color: #ddd;
+        }
+
+        .content {
+            padding: 0 18px;
+            display: none;
+            overflow: hidden;
+            background-color: #f9f9f9;
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -22,6 +48,32 @@
     <p>
         I have a deep understanding of the retail, ride hailing and finance industries.
     </p>
-        
+    
+    <button class="collapsible">Ride Hailing Industry</button>
+    <div class="content">
+        <p>I have leveraged data analytics to optimize ride-hailing operations, predict passenger demand, balance demand and supply, reduce wait times and improve the overall customer experience.</p>
+    </div>
+
+    <button class="collapsible">Finance Industry</button>
+    <div class="content">
+        <p>In the finance industry, I have developed predictive models to forecast market trends, assess credit risk, and enhance investment strategies. My work has contributed to making data-driven financial decisions that maximize returns and minimize risks.</p>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var coll = document.getElementsByClassName("collapsible");
+            for (var i = 0; i < coll.length; i++) {
+                coll[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var content = this.nextElementSibling;
+                    if (content.style.display === "block") {
+                        content.style.display = "none";
+                    } else {
+                        content.style.display = "block";
+                    }
+                });
+            }
+        });
+    </script>    
 </body>
 </html>
