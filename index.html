@@ -15,6 +15,9 @@
             outline: none;
             font-size: 15px;
             margin-top: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
 
         .active, .collapsible:hover {
@@ -49,12 +52,12 @@
         I have a deep understanding of the retail, ride hailing and finance industries.
     </p>
     
-    <button class="collapsible">Ride Hailing Industry</button>
+    <button class="collapsible">Ride Hailing Industry <span class="icon">+</span></button>
     <div class="content">
         <p>I have leveraged data analytics to optimize ride-hailing operations, predict passenger demand, balance demand and supply, reduce wait times and improve the overall customer experience.</p>
     </div>
 
-    <button class="collapsible">Finance Industry</button>
+    <button class="collapsible">Finance Industry <span class="icon">+</span></button>
     <div class="content">
         <p>In the finance industry, I have developed predictive models to forecast market trends, assess credit risk, and enhance investment strategies. My work has contributed to making data-driven financial decisions that maximize returns and minimize risks.</p>
     </div>
@@ -68,8 +71,10 @@
                     var content = this.nextElementSibling;
                     if (content.style.display === "block") {
                         content.style.display = "none";
+                        icon.textContent = "+";
                     } else {
                         content.style.display = "block";
+                        icon.textContent = "-";
                     }
                 });
             }
