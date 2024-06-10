@@ -66,3 +66,7 @@ main {
     margin-top: 20px;
     color: #A31F34;
 }
+
+details {
+    margin-bottom: 20px; /* Adjust the value as needed */
+}
