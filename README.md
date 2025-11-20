@@ -1,7 +1,7 @@
 # Hello! 
 
-I'm studying the Master of Business Analytics from the Sloan and Operations Research Center at MIT. I'm excited to meet you and work with you. 
-I'm particularly passionate about strategy, technology and marketing applications, and a large part of my experience has been inspired by these industries with the aim to improve the quality of their services and operations.
+I'm Marian (Shanti) a Data Scientist trained at MIT Sloan and the Operations Research Center, with experience building LLM systems, causal inference pipelines and marketing analytics solutions. I previously worked at Cirkul as a Senior Data Analyst/Data Scientist, where I built agentic LLM workflows, led MMM (Robyn/Meridian) and GeoLift experiments, and developed dashboards and data products that improved decision-making across Marketing, CX, Product and Operations.
 
-Interests: Optimization, Machine Learning, Deep Learning, Large Language Models, Business Analytics, Applications for driving business value.
+My background spans optimization, machine learning, deep learning, LLM finetuning, embeddings, RAG, NLP, experimentation and data engineering collaboration. I enjoy turning complex problems into scalable, production-ready analytical workflows.
 
+Interests: Optimization, ML/DL, LLMs, Causal Inference, RAG systems, Agentic AI, Business & Marketing Analytics, and applied data science that drives measurable business value.
